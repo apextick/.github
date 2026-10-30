@@ -11,6 +11,6 @@ ApexTick is an ultra-low latency market data normalization engine and financial 
 2. **`ApexTick Excel Lite` & `ApexTick Excel Native` (`https://docs.apextick.com/excel`):**
    * 17 dynamic-array formulas (`=APEXTICK.QUOTE`, `=APEXTICK.STREAM`, `=APEXTICK.OPTIONS.CHAIN`, `=APEXTICK.FINANCIALS`, `=APEXTICK.INDICATOR`) with vectorized multi-symbol evaluation on Excel for the Web, Mac, and Windows.
 3. **Hosted Streamable HTTP MCP Server (`https://api.apextick.com/mcp`):**
-   * Connect Claude Desktop, Claude Code, Claude.ai Web/iOS, Cursor, and OpenCode in one command (`get_quote`, `analyze_ticker`, `explain_price_move`, `get_watchlist_brief`, `screen_market`).
+   * Connect Claude Desktop, Claude Code, Claude.ai Web/iOS, Cursor, and OpenCode in one command (`get_quote`, `search_tickers`, `get_price_history`, `analyze_ticker`, `explain_price_move`, `get_watchlist_brief`, `screen_market`, `get_options_chain`).
 4. **Instant Multi-Channel Alerts & Automated Community Digests:**
    * Price, technical (`RSI`, `MACD` cross), and 20-day Relative Volume (`rvol20`) alerts + scheduled Pre-Market (`08:30 ET`) and Closing Bell (`16:30 ET`) briefings for Discord, Telegram, Slack, Email, and Signed Webhooks.
